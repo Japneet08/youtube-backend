@@ -1,14 +1,18 @@
 {
   "name": "youtube-clone",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev":"nodemon src/index.js"
   },
   "keywords": [
     "backend"
   ],
-  "author": "japneet Kaur Bhatai",
+  "author": "japneet Kaur Bhatia ",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
